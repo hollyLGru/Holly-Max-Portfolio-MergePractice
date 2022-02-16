@@ -1,0 +1,12 @@
+#clearfix a:hover {
+    transform: scale(1); /* Equal to scaleX(0.7) scaleY(0.7) */
+  background-color: pink;
+  animation: fontchange 2s infinite;
+}
+
+@keyframes fontchange {
+    70% {
+       font-size: 30px;
+       font-style: italic;
+    }
+ }
